@@ -1,4 +1,3 @@
-// Cl_profesor.js
 export default class Cl_profesor {
     constructor(nombre, bono, sueldo) {
         this.nombre = nombre;

@@ -1,4 +1,3 @@
-// Cl_fijo.js
 import Cl_profesor from "./Cl_profesor.js";
 
 export default class Cl_fijo extends Cl_profesor {
@@ -7,6 +6,6 @@ export default class Cl_fijo extends Cl_profesor {
     }
 
     calcIngreso() {
-        return this.sueldo + this.bono; // Usamos los getters
+        return this.sueldo + this.bono;
     }
 }
